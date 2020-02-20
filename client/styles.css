@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sigmar One', cursive;
+}
+
+body {
+  background: url(https://blog.brawlstars.com/blog-assets/svg/brawl-BG_Pattern.svg);
+  background-color: #2477aa30;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+input {
+  background-color: #045ec0;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border: 3px solid black;
+}
+input::placeholder {
+  color: white;
+}
+input:focus {
+  outline-color: transparent;
+}
+
+button {
+  background: #22b3ff;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  width: 70%;
+  border: 5px solid #505050;
+  cursor: pointer;
+}
+button:focus {
+  outline-color: transparent;
+}
+button:hover {
+  background: #108ccc;
+}
